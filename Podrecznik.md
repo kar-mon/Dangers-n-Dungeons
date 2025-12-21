@@ -51,4 +51,5 @@ Wynik ujemny - Poszło niezwykle źle i efekt jest opłakany w skutach. Ujemny w
 ### Pomaganie
 
 Pomaganie innym jest ważne. Pomagając rzucasz tak samo jak za wykonywanie akcji - uwzględniając czy jesteś ekspertem i czy jesteś przygotowany.
+Pomagać można na dwa spoosby - brać udział w akcji od samego początku, albo wkroczyć do akcji gdy sytuacja już jest zła.
 Każdy sukces dodaje się do sukcesów osoby, której pomagasz, jednak każdą porażkę odejmijcie od wyniku. W pojedynkę nie skiepścisz tak, jak z przyjaciółmi.
