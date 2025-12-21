@@ -1,4 +1,6 @@
-# Tworzenie postaci
+# Dangers N' Dungeons RPG
+
+## Tworzenie postaci
 
 * Nadaj Bohaterowi **Imię**. 
 
@@ -28,7 +30,7 @@
 * Nadaj postaci **Cel**. Może to być np. uciekanie przed wierzycielami, misja od boga, pragnienie potęgi, czy chęć pozbycia się artefaktu. 
   Ogólnie cokolwiek, co sprawia że twój Bohater co rano postanawia wstać z łóżka i nie zamówić kolejnej porcji ciepłej wódki karczmie.
 
-# Rzuty kością
+## Rzuty kością
 
 * Jeżeli robisz coś trudnego lub ryzykownego, potrzebny jest rzut 1K10 by ustalić czy się udało. Na rzeczy trywialne nie warto rzucać. 
   O tym czy dana czynnośc w danej chwili jest trywialna decyduje Mistrzyni Gry.
@@ -38,7 +40,7 @@
 * MG określa, czy rzucasz na **Mistycyzm** czy na **Pragmatyzm**, 
   przy czym jeżeli korzyszasz z jendej ze swoich **Magicznych Umiejętności** to MG może (ale nie musi) określić że rzucasz na cechcę z nią związaną. 
 
-## Wyniki rzutu
+### Wyniki rzutu
 
 Wynik ujemny - Poszło niezwykle źle i efekt jest opłakany w skutach. Ujemny wynik można uzyskać tylko w wyniku **pomocy**.
 0 sukcesów - Nie udło się, musisz ponieść konsekwencje. 
@@ -46,7 +48,7 @@ Wynik ujemny - Poszło niezwykle źle i efekt jest opłakany w skutach. Ujemny w
 2 sukcesy - Poszło bardzo dobrze. Możesz się poklepać po plecach.
 3 sukecesy - Wyszło nadzwyczaj dobrze. Możesz czuć się wirtuozem.
 
-## Pomaganie
+### Pomaganie
 
 Pomaganie innym jest ważne. Pomagając rzucasz tak samo jak za wykonywanie akcji - uwzględniając czy jesteś ekspertem i czy jesteś przygotowany.
 Każdy sukces dodaje się do sukcesów osoby, której pomagasz, jednak każdą porażkę odejmijcie od wyniku. W pojedynkę nie skiepścisz tak, jak z przyjaciółmi.
