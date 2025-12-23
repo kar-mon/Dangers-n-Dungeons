@@ -12,10 +12,10 @@
   Obie te cechy określają stopień trudności wykonywanych akcji. Cechy muszą sumować się do 10.
   W toku gry, w wyniku potężnej magii lub innych nadprzyrodzonych wydarzeń, suma cech czasowo może przekroczyć 10.
     
-* Daj Bohaterowi **Maginczne Umiejętności**. Mogą to być zaklęcia, tajne rytuały loży do której należy, 
+* Daj Bohaterowi **Magiczne Umiejętności**. Mogą to być zaklęcia, tajne rytuały loży do której należy, 
   modlitwy do wybranego bóstwa, przekazywane z pokolenia na pokolenie sposoby wpadania w berserk, warzenia mikstur, 
   czy błyskawicznego liczenia .
-  Każda **Magincza Umiejętność** ma przypisaną informację, czy jest związana z **Mistycyzmem** czy z **Pragmatyzmem**. 
+  Każda **Magicza Umiejętność** ma przypisaną informację, czy jest związana z **Mistycyzmem** czy z **Pragmatyzmem**. 
   Kada **Magiczna Umiejętność** wpływa na charakter i wygląd postaci, im potężniejsza, tym większy wpływ.
   Początkujący berserker będzie po prostu mocno owłosiony. Jednak im częściej będzie wpadać w szał, tym będzie bardziej
   przypominać niedźwiedzia - zarówno z wyglądu jak i z ogólnej ogłady. Z kolei potężny nekromanta będzie przypominać
@@ -33,20 +33,23 @@
 ## Rzuty kością
 
 * Jeżeli robisz coś trudnego lub ryzykownego, potrzebny jest rzut 1K10 by ustalić czy się udało. Na rzeczy trywialne nie warto rzucać. 
-  O tym czy dana czynnośc w danej chwili jest trywialna decyduje Mistrzyni Gry.
+  O tym czy dana czynność w danej chwili jest trywialna decyduje Mistrzyni Gry.
 * Jeżeli robisz coś w czym jesteś ekspertem - dostajesz dodatkową kość. 
-* Jeżeli jeteś przygotowany do zaistniałej sytuacji - dostajesz dodatkową kość.
+* Jeżeli jesteś przygotowany do zaistniałej sytuacji - dostajesz dodatkową kość.
 * Jeżeli istnieje naprawdę dobry powód to możesz dostać od Mistrzyni gry dodatkową kość.
 * MG określa, czy rzucasz na **Mistycyzm** czy na **Pragmatyzm**, 
-  przy czym jeżeli korzyszasz z jendej ze swoich **Magicznych Umiejętności** to MG może (ale nie musi) określić że rzucasz na cechcę z nią związaną. 
+  przy czym jeżeli korzystasz z jendej ze swoich **Magicznych Umiejętności** to MG może (ale nie musi) określić że rzucasz na cechę z nią związaną. 
 
 ### Wyniki rzutu
 
 Wynik ujemny - Poszło niezwykle źle i efekt jest opłakany w skutach. Ujemny wynik można uzyskać tylko w wyniku **pomocy**.
-0 sukcesów - Nie udło się, musisz ponieść konsekwencje. 
-1 sukces - Udało się. Tak zwyczajnie.
-2 sukcesy - Poszło bardzo dobrze. Możesz się poklepać po plecach.
-3 sukecesy - Wyszło nadzwyczaj dobrze. Możesz czuć się wirtuozem.
+* 0 sukcesów - Nie udało się, musisz ponieść konsekwencje.
+ 
+* 1 sukces - Udało się. Tak zwyczajnie.
+
+* 2 sukcesy - Poszło bardzo dobrze. Możesz się poklepać po plecach.
+
+* 3 sukcesy - Wyszło nadzwyczaj dobrze. Możesz czuć się wirtuozem.
 
 ### Pomaganie
 
