@@ -1,0 +1,85 @@
+require 'erb'
+require 'shellwords'
+
+# Rakefile
+$NAME = "Podrecznik"
+$SOURCE = "Podrecznik.md"
+$BUILD_SOURCE = "Podrecznik.build.md"
+$FRAME_MARGIN = "0.5cm"
+$FRAME_LINE_WIDTH = "0.8pt"
+$FRAME_TITLE_YSHIFT = "0.1cm"
+$PAGE_MARGIN = "1cm"
+$PAGE_TOP_MARGIN = "0.2cm"
+task default: [:clean]
+
+def markdown_title(path)
+    File.foreach(path) do |line|
+        heading = line.match(/^#+\s+(.+?)\s*$/)
+        return heading[1] if heading
+    end
+    File.basename(path, File.extname(path))
+end
+
+def strip_first_heading(source_path, output_path)
+    removed = false
+    output = []
+
+    File.foreach(source_path) do |line|
+        if !removed && line.match(/^#+\s+.+/)
+            removed = true
+            next
+        end
+        output << line
+    end
+
+    output.shift while output.first&.strip == ""
+    File.write(output_path, output.join)
+end
+
+def pdf_page_count(path)
+    escaped_path = Shellwords.escape(path)
+    output = `pdfinfo #{escaped_path} 2>/dev/null`
+    if output.nil? || output.strip.empty?
+        raise "Could not read PDF metadata. Make sure 'pdfinfo' is installed."
+    end
+
+    pages_line = output.lines.find { |line| line.start_with?('Pages:') }
+    unless pages_line
+        raise "Could not find page count in pdfinfo output."
+    end
+
+    pages_match = pages_line.match(/Pages:\s+(\d+)/)
+    unless pages_match
+        raise "Could not parse page count from pdfinfo output."
+    end
+
+    pages_match[1].to_i
+end
+
+task :clean do
+    puts "Cleaning workspace"
+    `rm -f *.pdf pdf-frame.generated.tex #{$BUILD_SOURCE}`
+end
+
+task :pdf do
+    puts "Building pdf "
+    title = markdown_title($SOURCE)
+    escaped_title = Shellwords.escape(title)
+    strip_first_heading($SOURCE, $BUILD_SOURCE)
+    frame_template = ERB.new(File.read('pdf-frame.tex.erb'))
+    File.write('pdf-frame.generated.tex', frame_template.result(binding))
+    `pandoc --pdf-engine=xelatex --metadata title=#{escaped_title} -H pdf-frame.generated.tex -V geometry:a4paper -V geometry:left=#{$PAGE_MARGIN} -V geometry:right=#{$PAGE_MARGIN} -V geometry:bottom=#{$PAGE_MARGIN} -V geometry:top=#{$PAGE_TOP_MARGIN} -V mainfont="DejaVu Serif" -V documentclass=article -V classoption=twocolumn -V pagestyle=empty --output #{$NAME}.pdf #{$BUILD_SOURCE}`
+end
+
+task :test_single_page => [:pdf] do
+    pdf_path = "#{$NAME}.pdf"
+    pages = pdf_page_count(pdf_path)
+
+    if pages == 1
+        puts "PASS: #{pdf_path} contains exactly one page."
+    else
+        raise "FAIL: #{pdf_path} contains #{pages} pages (expected 1)."
+    end
+end
+
+task :test => [:test_single_page]

@@ -1,0 +1,16 @@
+\usepackage{tikz}
+\usepackage{eso-pic}
+\AtBeginDocument{\pagenumbering{gobble}\pagestyle{empty}}
+
+\makeatletter
+\newcommand{\FrameTitle}{\@title}
+\AddToShipoutPictureBG{%
+\begin{tikzpicture}[remember picture,overlay]
+\draw[line width=<%= $FRAME_LINE_WIDTH %>]
+([xshift=<%= $FRAME_MARGIN %>,yshift=-<%= $FRAME_MARGIN %>]current page.north west) rectangle
+([xshift=-<%= $FRAME_MARGIN %>,yshift=<%= $FRAME_MARGIN %>]current page.south east);
+\node[fill=white,inner xsep=8pt,inner ysep=2pt]
+at ([yshift=-<%= $FRAME_TITLE_YSHIFT %>]current page.north) {\small\bfseries \FrameTitle};
+\end{tikzpicture}%
+}
+\makeatother
