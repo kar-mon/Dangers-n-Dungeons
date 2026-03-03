@@ -30,6 +30,11 @@
 * Nadaj postaci **Cel**. Może to być np. uciekanie przed wierzycielami, misja od boga, pragnienie potęgi, czy chęć pozbycia się artefaktu. 
   Cokolwiek, co sprawia że twój Bohater co rano postanawia wstać z łóżka i nie zamówić w karczmie kolejnej porcji ciepłej gorzałki.
 
+  ## Tworzenie świata
+* MG opisuje zarys świata
+* każdy z graczy mówi jedną Prawdę o Świecie (np. jest płaski, wszystkie statki mają kółka, język urzędowy to kaszubski, krasnoludy są najwyższą rasą, itd)
+* jeśli któraś z Prawd niszczy fabułę, albo zupełnie nie pasuje MG może ją odrzucić, gracz może wymyślić nową
+
 ## Rzuty kością
 
 * Jeżeli robisz coś trudnego lub ryzykownego, potrzebny jest rzut 1K10 by ustalić czy się udało. Na rzeczy trywialne nie warto rzucać. 
