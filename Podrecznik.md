@@ -48,7 +48,6 @@
 ### Wyniki rzutu
 
 * Sukces to wyrzucony na co najmniej 1 kości wynik niższy niż wartość testowanej cechy.
-* Jeżeli wynik rzutu wynosi 1 jest to krytyczny sukces, 10 oznacza krytyczną porażkę. Wspólnie z MG ustalcie co to oznacza w konkretnej sytuacji.
 * Wynik ujemny - Poszło niezwykle źle i efekt jest opłakany w skutach. Ujemny wynik można uzyskać tylko w wyniku niesionej przez towarzyszy **pomocy**.
 * 0 sukcesów - Nie udało się, musisz ponieść konsekwencje.
 * 1 sukces - Udało się. Tak zwyczajnie.
@@ -58,5 +57,5 @@
 ### Pomaganie
 
 Pomaganie innym jest ważne. Pomagając rzucasz tak samo jak za wykonywanie akcji - uwzględniając czy jesteś ekspertem i czy jesteś przygotowany.
-Pomagać można na dwa spoosby - brać udział w akcji od samego początku, albo wkroczyć gdy sytuacja już jest zła.
+Pomagać można na dwa spososby - brać udział w akcji od samego początku, albo wkroczyć gdy sytuacja już jest zła.
 Każdy sukces dodaje się do sukcesów osoby, której pomagasz; jednak każdą porażkę odejmijcie od wyniku. W pojedynkę nie skiepścisz tak, jak z przyjaciółmi.
